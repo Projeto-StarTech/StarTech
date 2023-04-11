@@ -29,16 +29,24 @@ https://www.figma.com/file/csTHd2Iv1U2QkPfJi4Xnpg/Untitled?node-id=0%3A1&t=zPqGD
 
 ## Linguagens, dependencias e libs utilizadas 📚
 - FIGMA 
+- HTML5/CSS3
+- JavaScript
 
 ## Resolvendo problemas 
 - Os responsaveis pelo back-end ainda não possuem totais habilidades para dar inicio ao codigo, portanto, buscamos cursos acessiveis para que possamos ampliar nossos conhecimentos.
 - Devido ao fato de não darmos inicio ao codigo nesse momento estamos nos aprofundando na base, buscando artigos de projetos semelhantes e auxilio dos professores.
 
 ## Desenvolvedores
+-Hillary Ferreira
+
+-Melissa Yung
+
+-Renan Paulo
+
 -Renata Negrini
 
 -Vinicius Machado
 
--Hillary Ferreira
+
 
 ## Direitos Autorais - 2023 StarTech
