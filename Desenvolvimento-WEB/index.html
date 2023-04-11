@@ -22,9 +22,22 @@
               <input type="password" id="caixa-senha" placeholder="Digite sua senha"/>
             </div>
             <div>
-              <button type="submit" id="caixa-acessar"><a href="menu.html">Acessar</button>
+              <button type="submit" id="caixa-acessar">
+                <span id="acessar">Acessar</span></button>
             </div>
           </form>
     </div>
   </body>
+
+  <script>
+  
+  const botaoAcessar = document.getElementById('caixa-acessar');
+  botaoAcessar.addEventListener('click', function(event) {
+    event.preventDefault(); // previne o envio do formulário
+    window.location.href = 'menu.html';
+  });
+  </script>
+ 
 </html>
+
+
