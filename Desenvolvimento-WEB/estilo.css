@@ -4,15 +4,15 @@ body {
   font-size: 22px;
   position: relative;
   width: 1080px;
-  height: 600px;
+  height: 720px;
 }
 
 /* INICIO DA CONFIGURAÇÃO DA PÁGINA DE LOGIN */
 
 #absoluto {
   position: absolute;
-  width: 1080px;
-  height: 720px;
+  width: 100%;
+  height: 100%;
   left: 0px;
   top: -4px;
   background: #FFFFFF;
@@ -126,6 +126,10 @@ body {
   margin: 2px;  
 }
 
+#acessar {
+  color: white;
+}
+
 #absoluto a:link, a:visited{
   text-decoration: none; 
   color: #fff;
@@ -146,7 +150,7 @@ body {
 #caixa-menu {
   position: absolute;
   width: 1080px;
-  height: 700px;
+  height: 720px;
   left: 0px;
   top: 0px;
   border-radius: 0px 20px 20px 0px;
@@ -159,7 +163,7 @@ body {
   bottom: 0;
   width: 1px;
   background-color: #b1b1b1;
-  transform: translateX(-50%);
+  transform: translateX(-20%);
 } 
 
 ul#navegacao-vertical{
@@ -275,7 +279,7 @@ ul#navegacao-vertical{
   width: 65.39px;
   height: 39px;
   left: 17px;
-  top: 563px;
+  top: 590px;
   display: inline-block;
 
   font-family: 'Cabin';
@@ -305,7 +309,7 @@ ul#navegacao-vertical{
   line-height: 100px;
   letter-spacing: 0em;
   text-align: center;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -318,7 +322,7 @@ ul#navegacao-vertical{
   line-height: 100px;
   letter-spacing: 0em;
   text-align: center;
-  top: 50%;
+  top: 40%;
   left: 51.5%;
   transform: translate(-50%, -50%);  
 }
@@ -333,7 +337,7 @@ ul#navegacao-vertical{
   line-height: 100px;
   letter-spacing: 0em;
   text-align: center;
-  top: 95%;
+  top: 80%;
   left: 40%;
 }
 
@@ -382,3 +386,191 @@ a:visited {
   color: #000;
 }
 
+/* FIM DA CONFIGURAÇÃO DA PÁGINA DE MENU */
+
+/* INICIO DA CONFIGURAÇÃO DA PÁGINA CERTIFICADO */
+
+#texto-certificado{
+  position: absolute;
+  width: 535px;
+  height: 110px;
+  left: 300px;
+  top: 0px;
+
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100px;
+
+  color: #000000;
+}
+
+#caixa-redefinir {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 650px;
+  top: 270px;
+
+  background: #FFF;
+  border: 1px solid #b1b1b1;
+  border-radius: 20px;
+
+  font-family: 'Cabin';
+  font-size: 18px;
+}
+
+#caixa-concluir {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 650px;
+  top: 330px;
+
+  background: #00447B;
+  border: none;
+  border-radius: 20px;
+
+  font-family: 'Cabin';
+  font-size: 18px;
+
+  color: #FFFFFF;
+}
+
+form#certificado {
+  position: absolute;
+  width: 565px;
+  height: 410px;
+  left: 300px;
+  top: 120px;
+  padding: 10px;
+  border: 1px solid #b1b1b1;
+  border-radius: 20px 20px 20px 20px;
+  font-size: 16px;
+  text-align: right;
+
+}
+
+label {
+  text-align: right;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #b1b1b1;
+  border-radius: 20px 20px 20px 20px;
+  margin-bottom: 15px;
+}
+
+input.pdf {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #b1b1b1;
+  border-radius: 20px 20px 20px 20px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+label[for="arquivo"] {
+  display: inline-block;
+  width: 300px;
+  height: 30px;
+  line-height: 30px;
+  padding: 2px;
+  font-size: 14px;
+  text-align: left;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #b1b1b1;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+select {
+  width: 300px;
+  height: 35px;
+  border: 1px solid #b1b1b1;
+  border-radius: 20px 20px 20px 20px;
+  margin-bottom: 15px;
+}
+
+/* FIM DA CONFIGURAÇÃO DA PÁGINA DE CERTIFICADO */
+
+/* INICIO DA CONFIGURAÇÃO DA PÁGINA CONTA */
+
+#foto-conta {
+    content: "";
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #b1b1b1;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#trocar-email {
+  position: absolute;
+  width: 150px;
+  height: 39px;
+  left: 700px;
+  top: 440px;   
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  background: #00447B;
+  margin: 2px;  
+}
+
+#trocar-senha{
+  position: absolute;
+  width: 150px;
+  height: 39px;
+  left: 450px;
+  top: 440px;   
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  background: #00447B;
+  margin: 2px;  
+}
+
+h2 {
+  position: absolute;
+  top: 8%;
+  left: 60%;
+}
+
+form {
+  display: block;
+  margin: 0px auto;
+  width: 380px;
+  font-size: 16px;
+  text-align: right;
+  padding: 20px;
+  /*border: 1px solid #b1b1b1;*/
+  border-radius: 20px;
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 300px;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+}
